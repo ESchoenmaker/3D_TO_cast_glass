@@ -30,5 +30,6 @@ There are three plotting function integrated in the algorithm. 'F\_plot\_results
 
 For all three plot options it is possible to plot either all elements, or the elements from a certain density threshold. This threshold can be set by the user, the standard value is set to plot any element with a density above 0.3. 
 
-**Possible error messages**
+**Possible error messages:**
+
 Errors regarding issues using reshape or arrays not having the correct sizes for matrix multiplication can often times be solved by clearing the workspace. 
