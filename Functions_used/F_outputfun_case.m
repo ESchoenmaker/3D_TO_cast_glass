@@ -13,7 +13,7 @@ first_ord = optimValues.firstorderopt;
 tend = toc;
 
 [p_ym, p_ymmin, p_nu, p_den, d_Ln, d_wd, d_ht, d_FE, vole,...
-    ~, ~, ~, nelx, nely, nelz, ~, dmin, dmax, pen, ac, vol_frac,initial_v, name_run, beta, q, tens_limit, comp_limit, max_u, loadcase_1] = F_data_case_gh; 
+    ~, ~, ~, nelx, nely, nelz, ~, dmin, dmax, pen, ac, vol_frac,initial_v, name_run, beta, q, tens_limit, comp_limit, max_u, loadcase_1] = F_data_case; 
 [neigh_dis, neigh_sum] = F_filtering(nelx, nely, nelz, dmin, d_FE); 
 
 % In case of starting the algorithm from a previous iteration
