@@ -1,7 +1,7 @@
 function F_plot_stress_FEA_final(x_L, neigh_dis_L, neigh_sum_L,Kel_L, dofs_free_L, F_L, edofs_L)
 
 [p_ym_L, p_ymmin_L, p_nu_L, ~, ~, ~, ~, d_FE_L, ~,...
-    ~, ~, ~, nelx_L, nely_L, nelz_L, tot_elements_L, ~, ~, pen_L, ~, ~, ~, name_run_L, ~, q_L, ~, ~, ~, ~, ~] = F_data_case_gh;
+    ~, ~, ~, nelx_L, nely_L, nelz_L, tot_elements_L, ~, ~, pen_L, ~, ~, ~, name_run_L, ~, q_L, ~, ~, ~, ~, ~] = F_data_case;
 
 xPhys_L = x_L;
 xPhys_L(:) = (neigh_dis_L*x_L(:))./neigh_sum_L;
